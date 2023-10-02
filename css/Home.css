@@ -1,0 +1,33 @@
+/* Estilize o texto "Olá! Sou" com um gradiente de cor */
+.gradient-text {
+    background: linear-gradient(90deg, #1e90ff, #ff69b4); /* Gradiente rosa-azul */
+    -webkit-background-clip: text; /* Clip de texto para aplicar o gradiente */
+    color: transparent; /* Tornar o texto transparente para mostrar o gradiente */
+    display: inline; /* Manter o span dentro do fluxo do texto */
+    font-weight: bold;
+}
+
+/* CSS personalizado para definir a altura da seção Home */
+.home-section {
+    max-height: 550px;
+    overflow: hidden; /* Para ocultar conteúdo adicional se a altura exceder 550px */
+}
+
+/* Estilos para ajustar o layout responsivo */
+@media (max-width: 768px) {
+    .align-items-center {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .col-md-6 {
+        width: 100%;
+    }
+
+    .img-fluid {
+        width: 50%; /* Ajuste o tamanho da imagem conforme necessário */
+        max-width: 100%;
+        margin-top: 20px; /* Espaço superior na imagem */
+    }
+}
+

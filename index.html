@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <!-- Adicione os links para o Bootstrap CSS e seu arquivo CSS personalizado -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/Typing.css">
+    <link rel="stylesheet" href="css/Home.css">
+    <link rel="stylesheet" href="css/Portifolio.css">
+    <link rel="stylesheet" href="css/About.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">ezequias.</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Home">Olá</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Sobre Mim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfólio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="py-5 ">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Texto animado -->
+                <div class="col-md-6">
+                    <div class="display-4">
+                        <span id="typing-text" class="gradient-text">Olá! Sou Ezequias Moura<span class="blink"></span></span>
+                    </div>
+
+                    <p style="color: #1e90ff;">Estudante de Análise e desenvolvimento de Sistemas</p>
+
+                    <!-- Lista de redes sociais -->
+                    <ul class="list-inline social-list mt-3">
+                        <li class="list-inline-item">
+                            <a href="www.linkedin.com/in/ezequias-santos-0526211b3" target="_blank">
+                                <i class="fab fa-linkedin fa-2x"></i> <!-- Ícone do LinkedIn com tamanho maior -->
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/ezequi_ias/" target="_blank">
+                                <i class="fab fa-instagram fa-2x"></i> <!-- Ícone do Instagram com tamanho maior -->
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://github.com/ezequiasMouraa" target="_blank">
+                                <i class="fab fa-github fa-2x"></i> <!-- Ícone do GitHub com tamanho maior -->
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Ilustração (imagem) ao lado -->
+                <div class="col-md-6 text-center">
+                    <img src="img/home.png" alt="Ilustração" class="illustration img-fluid" style="max-width: 400px;">
+                </div>
+            </div>
+        </div>
+    </section>
+               
+    <section id="about" class="py-5 text-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Imagem (foto) ao lado -->
+                <div class="col-md-6 order-2 order-md-1">
+                    <img src="img/sobre_mim.jpg" alt="Foto" class="img-fluid rounded-circle mb-4">
+                </div>
+                <!-- Texto sobre mim -->
+                <div class="col-md-6 order-1 order-md-2">
+                    <h2 class="card-title">Sobre Mim</h2>
+                    <p class="card-text">
+                        Sou um estudante dedicado de Tecnologia da Informação, atualmente cursando o Tecnólogo em Análise e Desenvolvimento de Sistemas no CESMAC. Minha jornada acadêmica tem sido marcada por uma paixão pela inovação e pelo aprendizado contínuo. Ao longo do caminho, adquiri habilidades sólidas em desenvolvimento web, gerenciamento de equipes e administração. Minha experiência profissional inclui a liderança de equipes de vendas, a gestão de recursos e a execução de sistemas importantes. Estou comprometido em aplicar meu conhecimento técnico e minha paixão pela excelência em projetos de front-end e em buscar constantemente desafios que impulsionem meu crescimento profissional.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="portfolio" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Portfólio</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card portfolio-card mt-4">
+                        <img src="img/project1.jpg" class="card-img-top" alt="Projeto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Portfólio Pessoal</h5>
+                            <p class="card-text">Meu portfólio pessoal é uma coleção de projetos e trabalhos que demonstro minhas habilidades e experiências em desenvolvimento web. Explore meu portfólio para ver algumas das soluções criativas que desenvolvi ao longo da minha jornada de aprendizado e carreira.</p>
+                            <a href="#" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Novos cards de projeto -->
+                <div class="col-md-4">
+                    <div class="card portfolio-card mt-4">
+                        <img src="img/project2.jpg" class="card-img-top" alt="Projeto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Scraping</h5>
+                            <p class="card-text">Neste projeto, criei uma solução de Web Scraping em PHP para extrair dados e armazenar dados do site Zezenia Brasil. Através da automação da coleta de informações, consegui obter dados relevantes, foram processados e integrados com um banco de dados MySQL.</p>
+                            <a href="#" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4">
+                    <div class="card portfolio-card mt-4">
+                        <img src="img/project3.jpg" class="card-img-top" alt="Projeto 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Em breve</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cumque corporis minus ad, modi delectus, earum facere saepe qui iste adipisci aliquam facilis accusamus eligendi. Eaque repellendus repellat itaque adipisci! Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                            <a href="#" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contatos -->
+    <section id="contact" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Contatos</h2>
+            <!-- Ícones das redes sociais sem nomes -->
+            <ul class="list-inline social-list">
+                <li class="list-inline-item">
+                    <a href="www.linkedin.com/in/ezequias-santos-0526211b3" target="_blank">
+                        <i class="fab fa-linkedin fa-3x"></i> <!-- Ícone do LinkedIn com tamanho maior -->
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://www.instagram.com/ezequi_ias/" target="_blank">
+                        <i class="fab fa-instagram fa-3x"></i> <!-- Ícone do Instagram com tamanho maior -->
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://github.com/ezequiasMouraa" target="_blank">
+                        <i class="fab fa-github fa-3x"></i> <!-- Ícone do GitHub com tamanho maior -->
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Adicione os scripts do Bootstrap e do JavaScript no final do corpo -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/c605959e6b.js" crossorigin="anonymous"></script>
+
+    <script src="js/Typing.js"></script>
+</body>
+</html>
