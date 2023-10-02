@@ -5,7 +5,7 @@ function typeWriter(textElement, text, i) {
         i++;
         setTimeout(function () {
             typeWriter(textElement, text, i);
-        }, 50); // Ajusta o valor do intervalo para controlar a velocidade da digitação
+        }, 50); // Ajustei o valor do intervalo para controlar a velocidade da digitação
     }
 }
 
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Limpa o conteúdo original
     textElement.innerHTML = "";
 
-    // Cria elementos para a digitação progressiva e a barra vertical
+    // Criei elementos para a digitação progressiva e a barra vertical
     var typingSpan = document.createElement("span");
     typingSpan.className = "typing";
     textElement.appendChild(typingSpan);
